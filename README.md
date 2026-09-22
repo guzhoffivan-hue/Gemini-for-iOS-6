@@ -1,67 +1,69 @@
-Gemini for Legacy iOS
-The native Google Gemini client for legacy iOS devices.
-Gemini for Legacy iOS is a client designed for classic versions of iOS, allowing you to interact directly with the Google Gemini API on vintage Apple hardware. Built on top of the classic iOS design language, the app brings modern LLM capabilities to retro devices while preserving the authentic feel of iOS 6.
+# Gemini for Legacy iOS
+## Нативный клиент Google Gemini для классических версий iOS
 
-Features
-Native conversation flow with conversational context retention.
+**Gemini for Legacy iOS** — это клиент для старых версий iOS, позволяющий напрямую взаимодействовать с API Google Gemini на винтажных устройствах Apple. Приложение переносит современные возможности нейросетей на ретро-девайсы, сохраняя аутентичный скевоморфный стиль iOS 6.
 
-In-App dynamic model selection directly from the chat title (supports Gemini 2.0 Flash, Gemini 2.5 Flash, etc.).
+---
 
-Custom manual model input support.
+### Основные возможности
+* **Контекстный диалог:** сохранение контекста беседы в рамках активного чата.
+* **Динамический выбор модели:** смена модели Gemini прямо по нажатию на заголовок чата (gemini-2.0-flash, gemini-2.5-flash и др.).
+* **Ручной ввод модели:** возможность вписать любой ID модели вручную через нативное всплывающее окно.
+* **Автономная история:** все беседы автоматически сохраняются в локальное хранилище устройства.
+* **Классический дизайн:** аутентичный интерфейс эпохи iOS 6 и переработанные иконки.
 
-Chat history automatically saved to local storage.
+---
 
-Authentic iOS 6 skeuomorphic user interface and dedicated icon assets.
+# Совместимость
 
-Compatibility
-Compatibility	iOS Version	Tested Devices / Remarks
-Incompatible	5.x	Not supported
-Compatible	6.x	Optimized for iOS 6.0 – 6.1.3 (e.g., iPhone 4S)
-Compatible	7.x	Compatible
-Untested	8+	Functional, but UI is unoptimized for larger screens
-How do I log in?
-Logging into Gemini for Legacy iOS requires a Google Gemini API key:
+| Совместимость | Версия iOS | Примечания / Устройства |
+| :--- | :--- | :--- |
+| **Несовместимо** | 5.x | Поддержка отсутствует |
+| **Совместимо** | **6.x** | **Оптимизировано для iOS 6.0 – 6.1.3 (iPhone 4S)** |
+| **Совместимо** | 7.x | Работает штатно |
+| **Не тестировалось** | 8+ | Запускается, но интерфейс не масштабирован под большие экраны |
 
-Obtain your API key from Google AI Studio.
+---
 
-Enter the key into the application when prompted on initial launch (or pass it through application settings).
+# Вход и настройка API
 
-Google AI Studio provides a free usage tier for individual developers. Please refer to Google's official pricing and terms of service regarding rate limits and region availability.
+Для работы приложения требуется личный ключ API Google Gemini:
+1. Получите бесплатный ключ на портале [Google AI Studio](https://aistudio.google.com/).
+2. Введите ключ при первом запуске приложения (или в системных настройках iOS).
+3. Google AI Studio предоставляет бесплатный тариф для индивидуальных разработчиков. Убедитесь, что конечные точки Google API доступны в вашей сети.
 
-Installation
-Ready-to-use IPA (Jailbroken Devices)
-Download the latest Gemini.ipa release from the Releases section.
+---
 
-Ensure your device has AppSync Unified installed from Cydia.
+# Установка
 
-Install the IPA package using your preferred tool (such as 3uTools, iFunBox, or directly on-device via iFile / Filza).
+### Готовый файл .IPA (для устройств с джейлбрейком)
+1. Скачайте свежий `Gemini.ipa` из вкладки [Releases](https://github.com/guzhoffivan-hue/Gemini-for-iOS-6Gemini-for-iOS-6/releases).
+2. Убедитесь, что на устройстве установлен твик **AppSync Unified** из Cydia.
+3. Установите `.ipa` с помощью любого инструмента (3uTools, iFunBox или прямо на устройстве через iFile / Filza).
 
-Building from Source
-Environment: OS X Mavericks (10.9) or compatible macOS running Xcode 6.2 (iOS 6 / 8.2 SDK).
+### Сборка из исходников
+* **Окружение:** OS X Mavericks (10.9) или совместимая macOS с установленным **Xcode 6.2** (iOS SDK 6 / 8.2).
+* Откройте `ChatGPT.xcodeproj`, выберите целевое устройство или симулятор, настройте подпись (или укажите параметр `CODE_SIGNING_REQUIRED=NO`) и запустите сборку.
 
-Open ChatGPT.xcodeproj, set the active scheme to an iOS Device or Simulator, configure code signing settings (or set CODE_SIGNING_REQUIRED=NO), and compile.
+---
 
-Encountering issues, or need support?
-If you run into crashes or network errors:
+# Обратная связь и решение проблем
 
-Note the exact behavior, your iOS version, your device model, and the selected Gemini model.
+Если возникают сбои или ошибки сети:
+* Обратите внимание на точное поведение, версию iOS, модель устройства и выбранную модель Gemini.
+* Если приложение выдает ошибки подключения к API, проверьте доступность серверов Google или используйте альтернативные DNS.
+* Создайте отчёт во вкладке [Issues](https://github.com/guzhoffivan-hue/Gemini-for-iOS-6Gemini-for-iOS-6/issues).
 
-If you receive API connection or region errors, ensure your network DNS configuration supports calls to Google API endpoints.
+---
 
-Open a ticket in the Issues tab.
+# Благодарности и используемые библиотеки
 
-Credits & Acknowledgments
-Original Project & Base Code: bag.xml — creator of ChatGPT-for-Legacy-iOS, upon which this Gemini adaptation was built.
+* **Оригинальный проект и база кода:** [bag.xml](https://github.com/bag-xml) — создатель [ChatGPT-for-Legacy-iOS](https://github.com/bag-xml/ChatGPT-for-Legacy-iOS), на базе которого создана данная модификация.
+* **Адаптация под Gemini API:** Pabel21.
 
-Porting & Modernization: Adapted to Google Gemini API by Ivan Guzhov.
-
-Third-Party Libraries Used
-APLSlideMenu
-
-Base64
-
-NSURLConnection+FoundationCompletions (Custom OpenSSL and cURL implementation for legacy TLS support)
-
-TSMarkdownParser
-
-SVProgressHUD
+### Сторонние библиотеки
+* [APLSlideMenu](https://github.com/apploft/APLSlideMenu)
+* Base64
+* NSURLConnection+FoundationCompletions (сборка OpenSSL и cURL для поддержки актуального TLS на iOS 6)
+* [TSMarkdownParser](https://github.com/laptobbe/TSMarkdownParser)
+* [SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD)
