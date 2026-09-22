@@ -1,36 +1,67 @@
-# ChatGPT for Legacy iOS
-## The only ChatGPT application for old iOS that you'll need.
-![siteBanner](https://chatgptlegacy.com/assets/img/banner.png)
-ChatGPT for Legacy iOS is a client for older versions of iOS that allow you to interact with the OpenAI API in many ways. ChatGPT for Legacy iOS supports most things that you already know from modern chatbot apps, such as thorough text conversations with context, image analysis by ChatGPT and image generation. Your conversations are also always saved automatically and can always be returned to whenever you want to.
+Gemini for Legacy iOS
+The native Google Gemini client for legacy iOS devices.
+Gemini for Legacy iOS is a client designed for classic versions of iOS, allowing you to interact directly with the Google Gemini API on vintage Apple hardware. Built on top of the classic iOS design language, the app brings modern LLM capabilities to retro devices while preserving the authentic feel of iOS 6.
 
-# Compatiblilty
+Features
+Native conversation flow with conversational context retention.
 
-| Compatibility  | iOS version | Remarks |
-| ------------- | ------------- | ------------- |
-| Incompatible  | 5.x  | Not at release |
-| Compatible  | 6.x  | None |
-| Compatible  | 7.x  | None |
-| Compatible  | 8+  | Not optimized for iPhone 6 and 6+ |
-# How do I log in?
-Logging into ChatGPT for Legacy iOS is only possible via an API key. That API key can be obtained from https://platform.openai.com/ and depending on what you want to do, or if you're doing this for the first time it can cost money. Please read through OpenAI's API platform for more information.
+In-App dynamic model selection directly from the chat title (supports Gemini 2.0 Flash, Gemini 2.5 Flash, etc.).
 
-# Encountering issues, or need support?
-If you're encountering issues you should always take note of what happens, how you triggered it, what your iOS version is, what device type (iPads aren't supported) you're using ChatGPT for Legacy iOS on and then open a new issue on the [issues tab](https://github.com/bag-xml/ChatGPT-for-Legacy-iOS/issues).
+Custom manual model input support.
 
-Additionally to that, you can join the bag.xml community discord on https://discord.gg/eE3XTCEMqr. This is the project server of ChatGPT for Legacy iOS, and you can get real-time help at any time if you're having issues regarding the app or more. 
+Chat history automatically saved to local storage.
 
-# Support
-If you like the work I do you can support me on [Ko-fi](https://ko-fi.com/bagxml). It would mean the world to me and really motivate me.
-# Credits
+Authentic iOS 6 skeuomorphic user interface and dedicated icon assets.
 
-### Contributors
-- [bag.xml](https://github.com/bag-xml) 
+Compatibility
+Compatibility	iOS Version	Tested Devices / Remarks
+Incompatible	5.x	Not supported
+Compatible	6.x	Optimized for iOS 6.0 – 6.1.3 (e.g., iPhone 4S)
+Compatible	7.x	Compatible
+Untested	8+	Functional, but UI is unoptimized for larger screens
+How do I log in?
+Logging into Gemini for Legacy iOS requires a Google Gemini API key:
 
-### Libraries used
+Obtain your API key from Google AI Studio.
 
-- [APLSlideMenu](https://github.com/apploft/APLSlideMenu)
-- Base64
-- NSURLConnection+FoundationCompletions.m (Also Updated OpenSSL Libraries and cURL headers)
-- [TSMarkdownParser](https://github.com/laptobbe/TSMarkdownParser)
-- [SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD)
-- [BButton](https://github.com/mattlawer/BButton)
+Enter the key into the application when prompted on initial launch (or pass it through application settings).
+
+Google AI Studio provides a free usage tier for individual developers. Please refer to Google's official pricing and terms of service regarding rate limits and region availability.
+
+Installation
+Ready-to-use IPA (Jailbroken Devices)
+Download the latest Gemini.ipa release from the Releases section.
+
+Ensure your device has AppSync Unified installed from Cydia.
+
+Install the IPA package using your preferred tool (such as 3uTools, iFunBox, or directly on-device via iFile / Filza).
+
+Building from Source
+Environment: OS X Mavericks (10.9) or compatible macOS running Xcode 6.2 (iOS 6 / 8.2 SDK).
+
+Open ChatGPT.xcodeproj, set the active scheme to an iOS Device or Simulator, configure code signing settings (or set CODE_SIGNING_REQUIRED=NO), and compile.
+
+Encountering issues, or need support?
+If you run into crashes or network errors:
+
+Note the exact behavior, your iOS version, your device model, and the selected Gemini model.
+
+If you receive API connection or region errors, ensure your network DNS configuration supports calls to Google API endpoints.
+
+Open a ticket in the Issues tab.
+
+Credits & Acknowledgments
+Original Project & Base Code: bag.xml — creator of ChatGPT-for-Legacy-iOS, upon which this Gemini adaptation was built.
+
+Porting & Modernization: Adapted to Google Gemini API by Ivan Guzhov.
+
+Third-Party Libraries Used
+APLSlideMenu
+
+Base64
+
+NSURLConnection+FoundationCompletions (Custom OpenSSL and cURL implementation for legacy TLS support)
+
+TSMarkdownParser
+
+SVProgressHUD
