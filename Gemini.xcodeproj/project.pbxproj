@@ -13,18 +13,30 @@
 		6358ADF430644E6F00AD09C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6358ADF230644E6F00AD09C4 /* Main.storyboard */; };
 		6358ADF630644E6F00AD09C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6358ADF530644E6F00AD09C4 /* Images.xcassets */; };
 		6358ADF930644E6F00AD09C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6358ADF730644E6F00AD09C4 /* LaunchScreen.xib */; };
-		6358AE0530644E6F00AD09C4 /* GeminiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6358AE0430644E6F00AD09C4 /* GeminiTests.m */; };
+		6358AE0F3064503F00AD09C4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6358AE0E3064503F00AD09C4 /* CFNetwork.framework */; };
+		6358AE113064504A00AD09C4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6358AE103064504A00AD09C4 /* Security.framework */; };
+		6358AE133064505500AD09C4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6358AE123064505500AD09C4 /* MobileCoreServices.framework */; };
+		6358AE153064506600AD09C4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6358AE143064506600AD09C4 /* SystemConfiguration.framework */; };
+		6358AE173064507100AD09C4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6358AE163064507100AD09C4 /* QuartzCore.framework */; };
+		6358AE193064508200AD09C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6358AE183064508200AD09C4 /* UIKit.framework */; };
+		6358AE1B3064508E00AD09C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6358AE1A3064508E00AD09C4 /* Foundation.framework */; };
+		6358AE273064524B00AD09C4 /* bar-BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 6358AE1C3064524A00AD09C4 /* bar-BG.png */; };
+		6358AE293064524B00AD09C4 /* bar-BG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6358AE1D3064524A00AD09C4 /* bar-BG@2x.png */; };
+		6358AE2B3064524B00AD09C4 /* BarButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6358AE1E3064524A00AD09C4 /* BarButton.png */; };
+		6358AE2D3064524B00AD09C4 /* BarButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 6358AE1F3064524A00AD09C4 /* BarButtonPressed.png */; };
+		6358AE2F3064524B00AD09C4 /* big-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6358AE203064524A00AD09C4 /* big-icon.png */; };
+		6358AE313064524B00AD09C4 /* defaultAssistantAvatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6358AE213064524B00AD09C4 /* defaultAssistantAvatar.png */; };
+		6358AE333064524B00AD09C4 /* defaultAssistantAvatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6358AE223064524B00AD09C4 /* defaultAssistantAvatar@2x.png */; };
+		6358AE353064524B00AD09C4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6358AE233064524B00AD09C4 /* icon.png */; };
+		6358AE373064524B00AD09C4 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6358AE243064524B00AD09C4 /* icon@2x.png */; };
+		6358AE393064524B00AD09C4 /* SendBarButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6358AE253064524B00AD09C4 /* SendBarButton@2x.png */; };
+		6358AE3B3064524B00AD09C4 /* SendBarButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6358AE263064524B00AD09C4 /* SendBarButtonPressed@2x.png */; };
+		6358AE433064532A00AD09C4 /* GMMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6358AE423064532A00AD09C4 /* GMMessage.m */; };
+		6358AE493064545000AD09C4 /* GMAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6358AE483064545000AD09C4 /* GMAPIManager.m */; };
+		6358AE4D3064573400AD09C4 /* GMBubbleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6358AE4C3064573400AD09C4 /* GMBubbleCell.m */; };
+		6358AE5130647B7D00AD09C4 /* GMBubbleBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6358AE5030647B7D00AD09C4 /* GMBubbleBuilder.m */; };
+		6358AE5430647FA600AD09C4 /* GMChatSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 6358AE5330647FA500AD09C4 /* GMChatSession.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6358ADFF30644E6F00AD09C4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6358ADDD30644E6F00AD09C4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6358ADE430644E6F00AD09C4;
-			remoteInfo = Gemini;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6358ADE530644E6F00AD09C4 /* Gemini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gemini.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,9 +49,36 @@
 		6358ADF330644E6F00AD09C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6358ADF530644E6F00AD09C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6358ADF830644E6F00AD09C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		6358ADFE30644E6F00AD09C4 /* GeminiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeminiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6358AE0330644E6F00AD09C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6358AE0430644E6F00AD09C4 /* GeminiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeminiTests.m; sourceTree = "<group>"; };
+		6358AE0E3064503F00AD09C4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6358AE103064504A00AD09C4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6358AE123064505500AD09C4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6358AE143064506600AD09C4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6358AE163064507100AD09C4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6358AE183064508200AD09C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6358AE1A3064508E00AD09C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6358AE1C3064524A00AD09C4 /* bar-BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-BG.png"; sourceTree = "<group>"; };
+		6358AE1D3064524A00AD09C4 /* bar-BG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-BG@2x.png"; sourceTree = "<group>"; };
+		6358AE1E3064524A00AD09C4 /* BarButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BarButton.png; sourceTree = "<group>"; };
+		6358AE1F3064524A00AD09C4 /* BarButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BarButtonPressed.png; sourceTree = "<group>"; };
+		6358AE203064524A00AD09C4 /* big-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "big-icon.png"; sourceTree = "<group>"; };
+		6358AE213064524B00AD09C4 /* defaultAssistantAvatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultAssistantAvatar.png; sourceTree = "<group>"; };
+		6358AE223064524B00AD09C4 /* defaultAssistantAvatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultAssistantAvatar@2x.png"; sourceTree = "<group>"; };
+		6358AE233064524B00AD09C4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		6358AE243064524B00AD09C4 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		6358AE253064524B00AD09C4 /* SendBarButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SendBarButton@2x.png"; sourceTree = "<group>"; };
+		6358AE263064524B00AD09C4 /* SendBarButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SendBarButtonPressed@2x.png"; sourceTree = "<group>"; };
+		6358AE413064532A00AD09C4 /* GMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMMessage.h; sourceTree = "<group>"; };
+		6358AE423064532A00AD09C4 /* GMMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMMessage.m; sourceTree = "<group>"; };
+		6358AE473064545000AD09C4 /* GMAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMAPIManager.h; sourceTree = "<group>"; };
+		6358AE483064545000AD09C4 /* GMAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMAPIManager.m; sourceTree = "<group>"; };
+		6358AE4B3064573400AD09C4 /* GMBubbleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBubbleCell.h; sourceTree = "<group>"; };
+		6358AE4C3064573400AD09C4 /* GMBubbleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBubbleCell.m; sourceTree = "<group>"; };
+		6358AE4F30647B7D00AD09C4 /* GMBubbleBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBubbleBuilder.h; sourceTree = "<group>"; };
+		6358AE5030647B7D00AD09C4 /* GMBubbleBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBubbleBuilder.m; sourceTree = "<group>"; };
+		6358AE5230647FA500AD09C4 /* GMChatSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMChatSession.h; sourceTree = "<group>"; };
+		6358AE5330647FA500AD09C4 /* GMChatSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMChatSession.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,13 +86,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6358ADFB30644E6F00AD09C4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				6358AE1B3064508E00AD09C4 /* Foundation.framework in Frameworks */,
+				6358AE193064508200AD09C4 /* UIKit.framework in Frameworks */,
+				6358AE173064507100AD09C4 /* QuartzCore.framework in Frameworks */,
+				6358AE153064506600AD09C4 /* SystemConfiguration.framework in Frameworks */,
+				6358AE133064505500AD09C4 /* MobileCoreServices.framework in Frameworks */,
+				6358AE113064504A00AD09C4 /* Security.framework in Frameworks */,
+				6358AE0F3064503F00AD09C4 /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +102,13 @@
 		6358ADDC30644E6F00AD09C4 = {
 			isa = PBXGroup;
 			children = (
+				6358AE1A3064508E00AD09C4 /* Foundation.framework */,
+				6358AE183064508200AD09C4 /* UIKit.framework */,
+				6358AE163064507100AD09C4 /* QuartzCore.framework */,
+				6358AE143064506600AD09C4 /* SystemConfiguration.framework */,
+				6358AE123064505500AD09C4 /* MobileCoreServices.framework */,
+				6358AE103064504A00AD09C4 /* Security.framework */,
+				6358AE0E3064503F00AD09C4 /* CFNetwork.framework */,
 				6358ADE730644E6F00AD09C4 /* Gemini */,
 				6358AE0130644E6F00AD09C4 /* GeminiTests */,
 				6358ADE630644E6F00AD09C4 /* Products */,
@@ -73,7 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				6358ADE530644E6F00AD09C4 /* Gemini.app */,
-				6358ADFE30644E6F00AD09C4 /* GeminiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,14 +126,17 @@
 		6358ADE730644E6F00AD09C4 /* Gemini */ = {
 			isa = PBXGroup;
 			children = (
+				6358AE453064539400AD09C4 /* Classes */,
 				6358ADEC30644E6F00AD09C4 /* AppDelegate.h */,
 				6358ADED30644E6F00AD09C4 /* AppDelegate.m */,
 				6358ADEF30644E6F00AD09C4 /* ViewController.h */,
 				6358ADF030644E6F00AD09C4 /* ViewController.m */,
+				6358AE4F30647B7D00AD09C4 /* GMBubbleBuilder.h */,
+				6358AE5030647B7D00AD09C4 /* GMBubbleBuilder.m */,
 				6358ADF230644E6F00AD09C4 /* Main.storyboard */,
 				6358ADF530644E6F00AD09C4 /* Images.xcassets */,
 				6358ADF730644E6F00AD09C4 /* LaunchScreen.xib */,
-				6358ADE830644E6F00AD09C4 /* Supporting Files */,
+				6358AE0230644E6F00AD09C4 /* Supporting Files */,
 			);
 			path = Gemini;
 			sourceTree = "<group>";
@@ -100,13 +148,14 @@
 				6358ADEA30644E6F00AD09C4 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = ../Gemini;
 			sourceTree = "<group>";
 		};
 		6358AE0130644E6F00AD09C4 /* GeminiTests */ = {
 			isa = PBXGroup;
 			children = (
+				6358ADE830644E6F00AD09C4 /* Supporting Files */,
 				6358AE0430644E6F00AD09C4 /* GeminiTests.m */,
-				6358AE0230644E6F00AD09C4 /* Supporting Files */,
 			);
 			path = GeminiTests;
 			sourceTree = "<group>";
@@ -114,9 +163,44 @@
 		6358AE0230644E6F00AD09C4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6358AE1C3064524A00AD09C4 /* bar-BG.png */,
+				6358AE1D3064524A00AD09C4 /* bar-BG@2x.png */,
+				6358AE1E3064524A00AD09C4 /* BarButton.png */,
+				6358AE1F3064524A00AD09C4 /* BarButtonPressed.png */,
+				6358AE203064524A00AD09C4 /* big-icon.png */,
+				6358AE213064524B00AD09C4 /* defaultAssistantAvatar.png */,
+				6358AE223064524B00AD09C4 /* defaultAssistantAvatar@2x.png */,
+				6358AE233064524B00AD09C4 /* icon.png */,
+				6358AE243064524B00AD09C4 /* icon@2x.png */,
+				6358AE253064524B00AD09C4 /* SendBarButton@2x.png */,
+				6358AE263064524B00AD09C4 /* SendBarButtonPressed@2x.png */,
 				6358AE0330644E6F00AD09C4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			path = GeminiTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		6358AE453064539400AD09C4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6358AE46306453AD00AD09C4 /* API */,
+				6358AE4B3064573400AD09C4 /* GMBubbleCell.h */,
+				6358AE4C3064573400AD09C4 /* GMBubbleCell.m */,
+				6358AE5230647FA500AD09C4 /* GMChatSession.h */,
+				6358AE5330647FA500AD09C4 /* GMChatSession.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		6358AE46306453AD00AD09C4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6358AE413064532A00AD09C4 /* GMMessage.h */,
+				6358AE423064532A00AD09C4 /* GMMessage.m */,
+				6358AE473064545000AD09C4 /* GMAPIManager.h */,
+				6358AE483064545000AD09C4 /* GMAPIManager.m */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,24 +223,6 @@
 			productReference = 6358ADE530644E6F00AD09C4 /* Gemini.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6358ADFD30644E6F00AD09C4 /* GeminiTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6358AE0B30644E6F00AD09C4 /* Build configuration list for PBXNativeTarget "GeminiTests" */;
-			buildPhases = (
-				6358ADFA30644E6F00AD09C4 /* Sources */,
-				6358ADFB30644E6F00AD09C4 /* Frameworks */,
-				6358ADFC30644E6F00AD09C4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6358AE0030644E6F00AD09C4 /* PBXTargetDependency */,
-			);
-			name = GeminiTests;
-			productName = GeminiTests;
-			productReference = 6358ADFE30644E6F00AD09C4 /* GeminiTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +234,6 @@
 				TargetAttributes = {
 					6358ADE430644E6F00AD09C4 = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					6358ADFD30644E6F00AD09C4 = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 6358ADE430644E6F00AD09C4;
 					};
 				};
 			};
@@ -189,7 +251,6 @@
 			projectRoot = "";
 			targets = (
 				6358ADE430644E6F00AD09C4 /* Gemini */,
-				6358ADFD30644E6F00AD09C4 /* GeminiTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,16 +260,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6358AE273064524B00AD09C4 /* bar-BG.png in Resources */,
+				6358AE3B3064524B00AD09C4 /* SendBarButtonPressed@2x.png in Resources */,
 				6358ADF430644E6F00AD09C4 /* Main.storyboard in Resources */,
+				6358AE333064524B00AD09C4 /* defaultAssistantAvatar@2x.png in Resources */,
 				6358ADF930644E6F00AD09C4 /* LaunchScreen.xib in Resources */,
+				6358AE393064524B00AD09C4 /* SendBarButton@2x.png in Resources */,
+				6358AE2D3064524B00AD09C4 /* BarButtonPressed.png in Resources */,
+				6358AE373064524B00AD09C4 /* icon@2x.png in Resources */,
+				6358AE293064524B00AD09C4 /* bar-BG@2x.png in Resources */,
+				6358AE353064524B00AD09C4 /* icon.png in Resources */,
 				6358ADF630644E6F00AD09C4 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6358ADFC30644E6F00AD09C4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				6358AE2B3064524B00AD09C4 /* BarButton.png in Resources */,
+				6358AE313064524B00AD09C4 /* defaultAssistantAvatar.png in Resources */,
+				6358AE2F3064524B00AD09C4 /* big-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,27 +286,16 @@
 			files = (
 				6358ADF130644E6F00AD09C4 /* ViewController.m in Sources */,
 				6358ADEE30644E6F00AD09C4 /* AppDelegate.m in Sources */,
+				6358AE5430647FA600AD09C4 /* GMChatSession.m in Sources */,
+				6358AE493064545000AD09C4 /* GMAPIManager.m in Sources */,
 				6358ADEB30644E6F00AD09C4 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6358ADFA30644E6F00AD09C4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6358AE0530644E6F00AD09C4 /* GeminiTests.m in Sources */,
+				6358AE433064532A00AD09C4 /* GMMessage.m in Sources */,
+				6358AE5130647B7D00AD09C4 /* GMBubbleBuilder.m in Sources */,
+				6358AE4D3064573400AD09C4 /* GMBubbleCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6358AE0030644E6F00AD09C4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6358ADE430644E6F00AD09C4 /* Gemini */;
-			targetProxy = 6358ADFF30644E6F00AD09C4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6358ADF230644E6F00AD09C4 /* Main.storyboard */ = {
@@ -343,9 +397,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = Gemini/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = None;
 			};
 			name = Debug;
 		};
@@ -353,43 +412,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = Gemini/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		6358AE0C30644E6F00AD09C4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = GeminiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gemini.app/Gemini";
-			};
-			name = Debug;
-		};
-		6358AE0D30644E6F00AD09C4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = GeminiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gemini.app/Gemini";
+				PROVISIONING_PROFILE = None;
 			};
 			name = Release;
 		};
@@ -410,14 +440,6 @@
 			buildConfigurations = (
 				6358AE0930644E6F00AD09C4 /* Debug */,
 				6358AE0A30644E6F00AD09C4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		6358AE0B30644E6F00AD09C4 /* Build configuration list for PBXNativeTarget "GeminiTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6358AE0C30644E6F00AD09C4 /* Debug */,
-				6358AE0D30644E6F00AD09C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
